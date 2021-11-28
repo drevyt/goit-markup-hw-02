@@ -1,0 +1,84 @@
+:root {
+    --primary-text-color: #E5E5E5;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --text-color: #757575;
+    --text-button-color: #FFFFFF;
+    --background-button-color: #F5F4FA;
+}
+body {
+    font-family: sans-serif Roboto;
+    background-color: var(--primary-text-color);
+    color: var(--text-color);
+}
+ 
+/*Основной цвет фона #E5E5E5;*/
+/*Второй цвет фона #F5F4FA;*/
+/*Третий цвет фона #2F303A;*/
+/*Цвет Н1 #FFFFFF*/
+/*Цвет Н3 #212121*/
+/*Цвет текста #757575*/
+/*Акцент #2196F3;*/
+
+.logo {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+ /*Site nav*/
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+    color: var(--accent-color);
+ }
+ .site-nav .link.current {
+     color: var(--accent-color);
+ }
+
+/*Contact list*/
+.contact-list .link  {
+    color: var(--text-color);
+}
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+    color: var(--accent-color);
+}
+
+/*Hero*/
+.hero-title { 
+    color: #FFFFFF;}
+
+/*Section*/
+.section-title {
+    color: var(--title-text-color);
+}
+
+/*Features*/
+.features-list .title {
+    color: var(--title-text-color);
+}
+
+/*Team*/
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/*button*/
+.button {
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+}
+.button.primary {
+    background-color: var(--background-button-color);
+    color: var(--title-text-colorr);
+}
+.button.secondary {
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+}
