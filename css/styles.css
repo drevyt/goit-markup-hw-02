@@ -1,5 +1,5 @@
 :root {
-    --primary-text-color: #E5E5E5;
+    --primary-background-color: #E5E5E5;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --text-color: #757575;
@@ -10,7 +10,7 @@
 body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    background-color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
     color: var(--text-color);
 }
  
@@ -93,7 +93,7 @@ body {
     color: var(--title-text-color);
 }
 .title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -115,7 +115,7 @@ body {
 .section-title {
     color: var(--title-text-color);
 
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -151,7 +151,7 @@ body {
 }
 
 .hero .button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
@@ -192,7 +192,7 @@ body {
 .portfolio-title {
     color: var(--title-text-color);
 
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
