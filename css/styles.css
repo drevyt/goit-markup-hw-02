@@ -1,5 +1,5 @@
 :root {
-    --primary-background-color: #E5E5E5;
+    --primary-background-color: #FFFFFF;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --text-color: #757575;
@@ -26,7 +26,7 @@ body {
 .logo {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
@@ -65,6 +65,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contact-list .link:hover,
@@ -141,6 +142,7 @@ body {
     font-family: inherit;
     cursor: pointer;   
 }
+
 .button.primary {
     background-color: var(--background-button-color);
     color: var(--title-text-color);
@@ -157,11 +159,24 @@ body {
     letter-spacing: 0.06em;
 }
 
+.hero .button:hover,
+.hero .button:focus {
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+}
+
 .portfolio-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
 }
+
+.portfolio-button .button:hover,
+.portfolio-button .button:focus {
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+}
+
 /*Footer*/
 .footer {
     background-color: var(--background-fon-color);
@@ -176,7 +191,14 @@ body {
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
+} 
+.footer-list .contact {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+
 }
+
 
 .footer-list .link:hover,
 .footer-list .link:focus {
